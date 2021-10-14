@@ -13,7 +13,7 @@ if re.search("^b(lack)?$", tea, re.IGNORECASE):
     # boucle avec le temps d'infusion
     for i in range(240,0,-1):
         # affichage du temps d'infusion
-        print(f"your tea has been brewing for {i} s")
+        print(f"please wait for {i} s")
         # seconde par seconde
         sleep(1)
         # quand le temps s'achève
@@ -23,28 +23,28 @@ if re.search("^b(lack)?$", tea, re.IGNORECASE):
 elif re.search("^g(reen)?$", tea, re.IGNORECASE):
     print("The temperature is 75°C and the brewing time 3 min")
     for i in range(180, 0, -1):
-        print(f"your tea has been brewing for {i} s")
+        print(f"please wait for {i} s")
         sleep(1)
         if i == 1:
             print("Enjoy your tea !")
 elif re.search("^w(hite)?$", tea, re.IGNORECASE):
     print("The temperature is 85°C and the brewing time 7 min")
     for i in range(420, 0, -1):
-        print(f"your tea has been brewing for {i} s")
+        print(f"please wait for {i} s")
         sleep(1)
         if i == 1:
             print("Enjoy your tea !")
 elif re.search("^o(olong)?$", tea, re.IGNORECASE):
     print("The temperature is 85°C and the brewing time 5 min")
     for i in range(300, 0, -1):
-        print(f"your tea has been brewing for {i} s")
+        print(f"please wait for {i} s")
         sleep(1)
         if i == 1:
             print("Enjoy your tea !")
 elif re.search("^r(ooibos)?$", tea, re.IGNORECASE):
     print("The temperature is 95°C and the brewing time 6 min")
     for i in range(360, 0, -1):
-        print(f"your tea has been brewing for {i} s")
+        print(f"please wait for {i} s")
         sleep(1)
         if i == 1:
             print("Enjoy your tea !")
