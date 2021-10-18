@@ -18,7 +18,7 @@ if re.search("^b(lack)?$", tea, re.IGNORECASE):
         # convertir en minutes et secondes
         m, s = divmod(seconds, 60)
         # affichage du temps d'infusion
-        print(f"please wait for {m} minutes et {s} seccondes")
+        print(f"please wait for {m} minutes et {s} secondes")
         # seconde par seconde
         sleep(1)
         # quand le temps s'achève
@@ -30,7 +30,7 @@ elif re.search("^g(reen)?$", tea, re.IGNORECASE):
     for i in range(180, 0, -1):
         seconds = i
         m, s = divmod(seconds, 60)
-        print(f"please wait for {m} minutes et {s} seccondes")
+        print(f"please wait for {m} minutes et {s} secondes")
         sleep(1)
         if i == 1:
             print("Enjoy your tea !")
@@ -39,7 +39,7 @@ elif re.search("^w(hite)?$", tea, re.IGNORECASE):
     for i in range(420, 0, -1):
         seconds = i
         m, s = divmod(seconds, 60)
-        print(f"please wait for {m} minutes et {s} seccondes")
+        print(f"please wait for {m} minutes et {s} secondes")
         sleep(1)
         if i == 1:
             print("Enjoy your tea !")
@@ -48,7 +48,7 @@ elif re.search("^o(olong)?$", tea, re.IGNORECASE):
     for i in range(300, 0, -1):
         seconds = i
         m, s = divmod(seconds, 60)
-        print(f"please wait for {m} minutes et {s} seccondes")
+        print(f"please wait for {m} minutes et {s} secondes")
         sleep(1)
         if i == 1:
             print("Enjoy your tea !")
@@ -57,7 +57,7 @@ elif re.search("^r(ooibos)?$", tea, re.IGNORECASE):
     for i in range(360, 0, -1):
         seconds = i
         m, s = divmod(seconds, 60)
-        print(f"please wait for {m} minutes et {s} seccondes")
+        print(f"please wait for {m} minutes et {s} secondes")
         sleep(1)
         if i == 1:
             print("Enjoy your tea !")
